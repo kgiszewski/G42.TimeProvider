@@ -23,8 +23,8 @@ var rightNow = provider.GetTime();//whatever the UTC time right now
 
 ```
 var provider = new SpecificTimeProvider(new DateTime(1955, 11, 5);
-var rightNow = provider.GetTime();//will always be November 5, 1955
-provider.SetTime(new DateTime(1985, 10, 26));//travel to Oct 26th, 1985
+var rightNow = provider.GetTime();//will be November 5, 1955
+provider.SetTime(new DateTime(1985, 10, 26));//mutate time by travelling to Oct 26th, 1985
 rightNow = provider.GetTime();//Great Scott!
 ```
 
