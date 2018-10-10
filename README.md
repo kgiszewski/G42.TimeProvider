@@ -8,8 +8,8 @@ Writing `DateTime.UtcNow` ties your code to "right now" which causes temporal is
 
 For instance you can:
 1) Use `DateTime.UtcNow` in production
-2) Use `SpecificTimeProvider` to set the current date to an exact date\time.
-3) Use `SpecificTimeProvider` to advance time to a specific date\time after a step has occurred.
+2) Use `SpecificTimeProvider` to set the current date to an exact date\time in tests.
+3) Use `SpecificTimeProvider` to advance time to a specific date\time after a step has occurred in tests.
 
 ## Usage
 Each provider implements `ITimeProvider`.
