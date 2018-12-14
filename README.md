@@ -40,3 +40,6 @@ container.RegisterType<ITimeProvider, SpecificTimeProvider>(new SingletonLifetim
 Make sure you never call `DateTime.<whatever>` in your code by depending on `ITimeProvider`.
 
 In this way you can change then entire app's clock by simply using whatever time provider you choose.
+
+## Nuget
+https://www.nuget.org/packages/G42.TimeProvider/
