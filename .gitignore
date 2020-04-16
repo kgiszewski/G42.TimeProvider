@@ -18,9 +18,7 @@ $RECYCLE.BIN/
 [Oo]bj/
 src/[Pp]ackages/
 
-Nuget/dist
-Nuget/disttest
-Nuget/Package
+Package
 
 node_modules
 
